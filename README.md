@@ -6,10 +6,9 @@
 
 <br/>
 
-> Software engineer who likes the unglamorous parts — the queue that doesn't drop jobs,
-> the pipeline that fails loudly, the type that catches the bug before prod does.
-> Currently shipping production Next.js at **Novoguard LLC** and researching satellite
-> imagery with a CNN–Transformer–LSTM model.
+Hey, I'm Rachit. I write software for a living — currently full-stack work on a production Next.js app at **Novoguard LLC**, and on the side I'm finishing up an IEEE paper on satellite imagery using a CNN–Transformer–LSTM setup.
+
+Most of what I enjoy is backend reliability. Async job processing, queues that don't silently drop work, that sort of thing. I'll happily spend an afternoon making a pipeline fail *loudly* instead of mysteriously.
 
 <div align="center">
 
@@ -19,28 +18,20 @@
 
 ---
 
-### What I'm actually good at
+### Stuff I've built
 
-I build full-stack products end to end and I'm comfortable on both sides of the stack. On the frontend that's **Next.js / React / TypeScript** with an eye for accessible, fast interfaces. On the backend it's **FastAPI + Celery + Redis** for async work that has to be reliable — the kind of job processing where "mostly works" isn't good enough. I containerize with **Docker** and lean on **TensorFlow / Keras** for the vision and OCR work.
+**OCR field-extraction service** — FastAPI + Celery + Redis + Docker, Tesseract doing the actual reading. Extraction runs as background jobs so the API doesn't block while a document churns. This one's actually runnable, not a screenshot.
 
-The thread through all of it: I care about systems that fail predictably and recover cleanly.
+**Satellite imagery research** — The CNN–Transformer–LSTM thing. Tricky part was getting the spatial and temporal sides to cooperate instead of one drowning out the other. Paper's in progress.
 
----
-
-### Selected work
-
-**OCR field-extraction service** — Async document pipeline (FastAPI · Celery · Redis · Docker · Tesseract). Built to handle extraction as background jobs so the API stays responsive under load. Real, runnable, not a demo.
-
-**Satellite imagery research** — Hybrid CNN–Transformer–LSTM for environmental monitoring, currently being written up for IEEE submission. The interesting problem is fusing spatial and temporal signal without the model collapsing into one or the other.
-
-**UNet semantic segmentation** — Deep U-Net in Keras for satellite imagery, evaluated on Dice / mIoU. Where I learned that data plumbing is 80% of the work.
+**UNet segmentation** — Keras U-Net for satellite imagery, scored on Dice / mIoU. Mostly taught me that the model is the easy part and the data wrangling is where the time goes.
 
 ---
 
-### Stack
+### What I work with
 
 **Frontend** — Next.js · React · TypeScript · Tailwind
-**Backend** — FastAPI · Celery · Redis · Node.js · Python
+**Backend** — FastAPI · Celery · Redis · Node · Python
 **ML / Vision** — TensorFlow · Keras · OpenCV · NumPy
 **Infra** — Docker · Linux · Vercel · Git
 
@@ -48,6 +39,6 @@ The thread through all of it: I care about systems that fail predictably and rec
 
 <div align="center">
 
-<sub>Open to remote SDE roles. Fastest reply via <a href="https://www.linkedin.com/in/rachit-singh-sde/">LinkedIn</a> — usually within a day.</sub>
+<sub>Open to remote SDE roles — LinkedIn's the fastest way to reach me, I usually reply within a day.</sub>
 
 </div>
