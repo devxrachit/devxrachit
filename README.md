@@ -1,56 +1,53 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&height=50&lines=Hey%2C+I'm+Rachit.;I+build+things+for+the+web.;Sometimes+I+teach+machines+to+see.)](https://git.io/typing-svg)
-
-<br/>
-
-<a href="https://www.rachitdev.uk/"><img src="https://img.shields.io/badge/Portfolio-rachitdev.uk-A78BFA?style=flat&labelColor=1a1b27" /></a>&nbsp;
-<a href="https://www.linkedin.com/in/rachit-singh-sde/"><img src="https://img.shields.io/badge/LinkedIn-Let's_talk-7AA2F7?style=flat&labelColor=1a1b27" /></a>&nbsp;
-<a href="https://x.com/Rachit_018"><img src="https://img.shields.io/badge/Twitter-@Rachit__018-565f89?style=flat&labelColor=1a1b27" /></a>&nbsp;
-<img src="https://komarev.com/ghpvc/?username=devxrachit&label=Visitors&color=A78BFA&style=flat&labelColor=1a1b27" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=180&section=header&text=Rachit%20Singh&fontSize=58&fontColor=e6edf3&fontAlignY=40&desc=Software%20Engineer%20·%20Full-Stack%20·%20Applied%20ML&descSize=16&descAlignY=62&descColor=8b949e" width="100%" />
 
 </div>
 
 <br/>
 
-### About
-
-I'm a software engineer based in Delhi, currently building production features on a Next.js app at **Novoguard LLC**. Most of my day is TypeScript and React on the front, FastAPI and Celery on the back.
-
-The other half of my brain lives in computer vision — I'm working on satellite imagery analysis with a CNN-Transformer-LSTM setup, and I've spent a good amount of time in the weeds of OCR pipelines and document intelligence.
-
-I care about software that's fast, accessible, and actually finished. I'm open to remote full-stack and Next.js roles — the quickest way to reach me is [LinkedIn](https://www.linkedin.com/in/rachit-singh-sde/), and I usually reply within a day.
-
-<br/>
-
-### What I work with
-
-**Front of house** — Next.js · React · TypeScript · Tailwind
-**Back of house** — Node.js · FastAPI · Python · Redis · Celery
-**Teaching machines** — PyTorch · OpenCV · NumPy · Pandas
-**Plumbing** — Docker · Vercel · Linux · Git
-
-<br/>
-
-### A few numbers
+> Software engineer who likes the unglamorous parts — the queue that doesn't drop jobs,
+> the pipeline that fails loudly, the type that catches the bug before prod does.
+> Currently shipping production Next.js at **Novoguard LLC** and researching satellite
+> imagery with a CNN–Transformer–LSTM model.
 
 <div align="center">
 
-<img height="160em" src="https://github-readme-stats.vercel.app/api?username=devxrachit&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1b27&title_color=A78BFA&icon_color=7AA2F7&text_color=c0caf5" />
-<img height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devxrachit&layout=compact&langs_count=6&hide_border=true&bg_color=1a1b27&title_color=A78BFA&text_color=c0caf5" />
+[**Portfolio**](https://www.rachitdev.uk/)  ·  [**LinkedIn**](https://www.linkedin.com/in/rachit-singh-sde/)  ·  [**Twitter**](https://x.com/Rachit_018)
 
 </div>
 
-<br/>
+---
 
-### Worth a look
+### What I'm actually good at
 
-**[Portfolio →](https://www.rachitdev.uk/)** — built with Next.js. The clearest picture of how I think about engineering and design. The rest is pinned below.
+I build full-stack products end to end and I'm comfortable on both sides of the stack. On the frontend that's **Next.js / React / TypeScript** with an eye for accessible, fast interfaces. On the backend it's **FastAPI + Celery + Redis** for async work that has to be reliable — the kind of job processing where "mostly works" isn't good enough. I containerize with **Docker** and lean on **TensorFlow / Keras** for the vision and OCR work.
 
-<br/>
+The thread through all of it: I care about systems that fail predictably and recover cleanly.
+
+---
+
+### Selected work
+
+**OCR field-extraction service** — Async document pipeline (FastAPI · Celery · Redis · Docker · Tesseract). Built to handle extraction as background jobs so the API stays responsive under load. Real, runnable, not a demo.
+
+**Satellite imagery research** — Hybrid CNN–Transformer–LSTM for environmental monitoring, currently being written up for IEEE submission. The interesting problem is fusing spatial and temporal signal without the model collapsing into one or the other.
+
+**UNet semantic segmentation** — Deep U-Net in Keras for satellite imagery, evaluated on Dice / mIoU. Where I learned that data plumbing is 80% of the work.
 
 ---
 
 <div align="center">
-<sub>Reach out on <a href="https://www.linkedin.com/in/rachit-singh-sde/">LinkedIn</a> for hiring, collaboration, or just to talk shop.</sub>
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=devxrachit&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&bg_color=0d1117&text_color=8b949e&icon_color=1f6feb&ring_color=1f6feb" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devxrachit&layout=compact&langs_count=6&hide_border=true&hide_title=true&bg_color=0d1117&text_color=8b949e" />
+
+</div>
+
+---
+
+<div align="center">
+
+<sub>Open to remote SDE roles. Fastest reply via <a href="https://www.linkedin.com/in/rachit-singh-sde/">LinkedIn</a> — usually within a day.</sub>
+
 </div>
