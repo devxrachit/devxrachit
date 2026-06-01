@@ -37,12 +37,12 @@ The thread through all of it: I care about systems that fail predictably and rec
 
 ---
 
-<div align="center">
+### Stack
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=devxrachit&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&bg_color=0d1117&text_color=8b949e&icon_color=1f6feb&ring_color=1f6feb" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devxrachit&layout=compact&langs_count=6&hide_border=true&hide_title=true&bg_color=0d1117&text_color=8b949e" />
-
-</div>
+**Frontend** — Next.js · React · TypeScript · Tailwind
+**Backend** — FastAPI · Celery · Redis · Node.js · Python
+**ML / Vision** — TensorFlow · Keras · OpenCV · NumPy
+**Infra** — Docker · Linux · Vercel · Git
 
 ---
 
