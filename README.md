@@ -6,7 +6,7 @@
 
 <br/>
 
-Hey, I'm Rachit. I write software for a living currently full-stack work on a production Next.js app at **Novoguard LLC**, and on the side I'm finishing up a paper on satellite imagery using a CNN–Transformer–LSTM setup.
+Hey, I'm Rachit. I write software for a living currently full-stack work on a production Next.js app at **Novoguard LLC**.
 
 Most of what I enjoy is backend reliability. Async job processing, queues that don't silently drop work, that sort of thing. I'll happily spend an afternoon making a pipeline fail *loudly* instead of mysteriously.
 
